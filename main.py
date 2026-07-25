@@ -39,3 +39,4 @@ async def main(request: Request):
                 "text": f"Произошла ошибка: {str(e)}"
             }
         }
+handler = app
